@@ -39,7 +39,7 @@ const Navbar = () => {
     <AppBar position='fixed' margin='0'>
       <StyledToolbar>
         <Typography variant='h6' sx={{ display: { xs: 'none', sm: 'block' } }}>
-          WhatWeCook (Design)
+          WhatWeCook (Design/Layout Prototype)
         </Typography>
         <Pets sx={{ display: { xs: 'block', sm: 'none' } }} />
         <Search>
