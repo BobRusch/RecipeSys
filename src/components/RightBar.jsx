@@ -91,7 +91,7 @@ const RightBar = () => {
       <Divider variant="inset" component="li" />
       <ListItem alignItems="flex-start">
         <ListItemAvatar>
-          <Avatar alt="Cindy Baker" src="https://material-ui.com/static/images/avatar/3.jpg" />
+          <Avatar alt="Cindy Baker" src="https://material-ui.com/static/images/avatar/7.jpg" />
         </ListItemAvatar>
         <ListItemText
           primary="Oui Oui"
