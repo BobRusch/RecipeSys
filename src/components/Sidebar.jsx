@@ -10,7 +10,7 @@ import ListItemText from '@mui/material/ListItemText';
 
 const Sidebar = ({mode,setMode}) => {
   return (
-    <Box  flex={1} sx={{ height: '86vh', display: { xs: 'none', sm: 'block' } }} >
+    <Box flex={1} p={2} sx={{ display: { xs: "none", sm: "block" } }} >
       <Box position='fixed' > 
         <List>
             <ListItem disablePadding>

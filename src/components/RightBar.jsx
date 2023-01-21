@@ -17,7 +17,7 @@ import React, { useState } from 'react'
 const RightBar = () => {
   const [open, setOpen] = useState(false)
   return (
-    <Box flex={2} p={1}  sx={{ display: { xs: 'none', sm: 'block' } }}>
+    <Box flex={2} p={2} sx={{ display: { xs: "none", sm: "block" } }}>
       <Box position='fixed'  mt='75px' width={300}>
         <Typography variant='h6' fontWeight={300}>Online Friends</Typography>
         <AvatarGroup max={9}  spacing='01' >
